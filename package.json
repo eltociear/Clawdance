@@ -1,0 +1,27 @@
+{
+  "name": "clawdance",
+  "version": "1.0.0",
+  "description": "Replace Claude Code's spinner with dancing Claw'd animation",
+  "main": "dist/index.js",
+  "bin": {
+    "clawdance": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "clawd",
+    "spinner",
+    "animation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
