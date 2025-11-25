@@ -1,1 +1,5 @@
-# Claw-d-dance
+# Claw'Dance
+
+ ▐▛███▜▌
+▝▜█████▛▘
+  ▘▘ ▝▝
