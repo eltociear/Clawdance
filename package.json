@@ -9,17 +9,36 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "claude",
     "claude-code",
     "clawd",
     "spinner",
-    "animation"
+    "animation",
+    "cli",
+    "terminal"
   ],
-  "author": "",
+  "author": "eltociear",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltociear/clawdance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eltociear/clawdance/issues"
+  },
+  "homepage": "https://github.com/eltociear/clawdance#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "devDependencies": {
     "@types/node": "^20.10.0",
     "typescript": "^5.3.0"

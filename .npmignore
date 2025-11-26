@@ -1,0 +1,9 @@
+src/
+node_modules/
+*.ts
+!*.d.ts
+tsconfig.json
+.git/
+.gitignore
+PLAN.md
+CLAUDE.md
